@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('../fonts/Ubuntu-M-webfont.eot');
+    src: url('../fonts/Ubuntu-M-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-M-webfont.woff') format('woff'),
+         url('../fonts/Ubuntu-M-webfont.ttf') format('truetype'),
+         url('../fonts/Ubuntu-M-webfont.svg#UbuntuMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body 
+{
+ font-family:"UbuntuMedium", "Arial";
+ padding-top: 60px;
+}
+.hero-unit h1
+{
+	font-size: 30px;
+}
