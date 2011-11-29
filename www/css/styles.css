@@ -23,13 +23,18 @@ body
 {
 	
 	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.3);
-	transition: all 500s linear;
+	-moz-transition: all 500ms linear;
+	-ms-transition: all 500ms linear;
+	-o-transition: all 500ms linear;
+	-webkit-transition: all 500ms linear;
+	
 	
 }
 .thumbnail:hover
 {
 	
 	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
-	transition: all 1s linear;
+
+	
 	
 }
