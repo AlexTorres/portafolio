@@ -4,6 +4,13 @@ $(document).on("ready", arranque);
 function arranque()
 {
 	 $("#main-nav > li").on("click",onSelection);
+	  $(".media-grid > li").on("click",onModal);
+	$('#modal-from-dom').modal('hide');
+	$('#modal-from-dom').modal({
+  keyboard: true
+})
+
+
 	 onAnterior= $("#main-nav ").children(0);
 }
 function goToByScroll(id)
@@ -20,4 +27,10 @@ function onSelection()
 		//onAnterior=this;
 		//alert($(onAnterior).attr("class"));
 	}
+}
+function onModal()
+{
+	alert("funca");
+	$('#modal-from-dom').modal('hide');
+	
 }
