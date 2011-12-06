@@ -62,6 +62,18 @@ body
 	
 	
 }
+.thumbnail:active
+{
+	
+	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+
+	
+	
+}
 
 .span-one-third p
 {
