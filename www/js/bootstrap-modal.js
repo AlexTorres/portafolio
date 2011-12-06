@@ -102,7 +102,7 @@
 
     , hide: function (e) {
         e && e.preventDefault()
-
+		onKillModal();
         if ( !this.isShown ) {
           return this
         }

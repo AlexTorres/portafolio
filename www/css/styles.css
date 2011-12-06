@@ -36,12 +36,17 @@ body
 }
 .thumbnail
 {
-	
+	font-size: 16px;
+	-moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-webkit-border-radius:0.3em;
+
 	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.3);
-	-moz-transition: all 500ms linear;
-	-ms-transition: all 500ms linear;
-	-o-transition: all 500ms linear;
-	-webkit-transition: all 500ms linear;
+	-moz-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-webkit-transition: all 300ms ease-out;
 	
 	
 }
@@ -49,10 +54,15 @@ body
 {
 	
 	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
 
 	
 	
 }
+
 .span-one-third p
 {
 	font-family:"UbuntuLight", "Arial";
