@@ -4,7 +4,7 @@ $(document).on("ready", arranque);
 function arranque()
 {
 	$("#main-nav > li").on("click",onSelection);
-	$(".media-grid > li").on("click",onModal);
+	$(".projects .media-grid > li").on("click",onModal);
 	$('#modal-from-dom').modal({backdrop:true,keyboard: true})	
 	
 	onAnterior= $("#main-nav ").children(0);
