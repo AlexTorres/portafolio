@@ -34,6 +34,16 @@ body
 {
 	font-family:"UbuntuLight", "Arial";
 }
+.likes 
+{
+
+	padding: 10px 60px;
+	-ms-user-select:none;
+	-webkit-user-select:none;
+	-moz-user-select:-moz-none;
+	-o-user-select:-moz-none;
+	
+}
 .thumbnail
 {
 	font-size: 16px;
