@@ -1,97 +1,63 @@
 @font-face {
-    font-family: 'UbuntuMedium';
-    src: url('../fonts/Ubuntu-M-webfont.eot');
-    src: url('../fonts/Ubuntu-M-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Ubuntu-M-webfont.woff') format('woff'),
-         url('../fonts/Ubuntu-M-webfont.ttf') format('truetype'),
-         url('../fonts/Ubuntu-M-webfont.svg#UbuntuMedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'UbuntuMedium';
+	src: url('../fonts/Ubuntu-M-webfont.eot');
+	src: url('../fonts/Ubuntu-M-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/Ubuntu-M-webfont.woff') format('woff'),  url('../fonts/Ubuntu-M-webfont.ttf') format('truetype'),  url('../fonts/Ubuntu-M-webfont.svg#UbuntuMedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'UbuntuLight';
-    src: url('../fonts/Ubuntu-L-webfont.eot');
-    src: url('../fonts/Ubuntu-L-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Ubuntu-L-webfont.woff') format('woff'),
-         url('../fonts/Ubuntu-L-webfont.ttf') format('truetype'),
-         url('../fonts/Ubuntu-L-webfont.svg#UbuntuLight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'UbuntuLight';
+	src: url('../fonts/Ubuntu-L-webfont.eot');
+	src: url('../fonts/Ubuntu-L-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/Ubuntu-L-webfont.woff') format('woff'),  url('../fonts/Ubuntu-L-webfont.ttf') format('truetype'),  url('../fonts/Ubuntu-L-webfont.svg#UbuntuLight') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
-
-body 
-{
- font-family:"UbuntuMedium", "Arial";
- padding-top: 60px;
+body {
+	font-family:"UbuntuMedium", "Arial";
+	padding-top: 60px;
 }
-.hero-unit h1
-{
+.hero-unit h1 {
 	font-size: 30px;
 }
-.hero-unit p
-{
+.hero-unit p {
 	font-family:"UbuntuLight", "Arial";
 }
-.likes 
-{
-
+.likes {
 	padding: 10px 60px;
 	-ms-user-select:none;
 	-webkit-user-select:none;
 	-moz-user-select:-moz-none;
 	-o-user-select:-moz-none;
-	
 }
-.thumbnail
-{
+.thumbnail {
 	font-size: 16px;
 	-ms-border-radius: 0.3em;
 	-moz-border-radius: 0.3em;
-    -o-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
 	-webkit-border-radius:0.3em;
 	border-radius: 0.3em;
-
-	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 	-ms-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
-	
 	-o-transition: all 300ms ease-out;
 	-webkit-transition: all 300ms ease-out;
 	transition: all 300ms ease-out;
-	
-	
 }
-.thumbnail:hover
-{
-	
-	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
+.thumbnail:hover {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 	-ms-transform: scale(1.05);
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-
-	
-	
+	-webkit-transform: scale(1.05);
 }
-.thumbnail:active
-{
-	
-	box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
+.thumbnail:active {
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 	-ms-transform: scale(1.05);
 	-moz-transform: scale(1.05);
 	-o-transform: scale(1.05);
-    -webkit-transform: scale(1.05);
-	
-
-	
-	
+	-webkit-transform: scale(1.05);
 }
-
-.projects .span-one-third p
-{
+.projects .span-one-third p {
 	font-family:"UbuntuLight", "Arial";
 	font-size: 14px;
-	
 }
